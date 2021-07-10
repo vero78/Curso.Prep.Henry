@@ -48,13 +48,13 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   if (idioma === "aleman"){
-    return "Guten Tag";
+    return "Guten Tag!";
   } else if (idioma === "mandarin"){
-    return "Ni Hao";
+    return "Ni Hao!";
   } else if ( idioma === "ingles"){
-    return "Hello";
+    return "Hello!";
   } else{
-    return "Hola";
+    return "Hola!";
   }
 }
 function colors(color) {
@@ -74,6 +74,8 @@ function colors(color) {
       return "This is green";
     case "orange":
       return "This is orange";      
+    default:
+      return "Color not found";
   }
 }
 
@@ -127,7 +129,7 @@ function operadoresLogicos(num1, num2, num3) {
     return "Error";
   }
   else if(num1 > 0 && num1 > num2 && num1 > num3){
-    return "Numero 1 es mayor y positivo";
+    return "Número 1 es mayor y positivo";
  }
  else if (num3 > num1 && num3 > num2){
    return num3 +1;
