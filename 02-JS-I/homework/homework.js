@@ -150,6 +150,7 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
   return Math.pow(num, 2);
+  
 }
 
 function elevarAlCubo(num) {
