@@ -1,0 +1,16 @@
+h3 {
+    color:navy;
+}
+img {
+    width: 400px;
+    height: 400px;
+}
+
+#thirDiv{
+    background-color: royalblue;
+    height: 400px;
+    width: 500px;
+    padding: 30px;
+    border: 4px solid black;
+
+}
